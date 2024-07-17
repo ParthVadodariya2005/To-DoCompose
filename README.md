@@ -162,7 +162,3 @@ This is a simple To-Do application built using Jetpack Compose, Room Database, a
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) - For building native UI
 - [Room](https://developer.android.com/training/data-storage/room) - For local database
 - [Dagger Hilt](https://dagger.dev/hilt/) - For dependency injection
-
-## License
-
-This project is licensed under the MIT License.
