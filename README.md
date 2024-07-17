@@ -34,7 +34,7 @@ This is a simple To-Do application built using Jetpack Compose, Room Database, a
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/todo-compose-app.git
+    https://github.com/ParthVadodariya2005/To-DoCompose.git
     ```
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or physical device.
@@ -61,7 +61,7 @@ This is a simple To-Do application built using Jetpack Compose, Room Database, a
     ```kotlin
     @AndroidEntryPoint
     class MainActivity : AppCompatActivity() {
-        // Your code here
+        //code here
     }
     ```
 
@@ -130,17 +130,17 @@ This is a simple To-Do application built using Jetpack Compose, Room Database, a
     ```kotlin
     @Composable
     fun SplashScreen(navController: NavController) {
-        // Your splash screen UI here
+        //  splash screen UI 
     }
 
     @Composable
     fun HomeScreen(navController: NavController, viewModel: TodoViewModel = hiltViewModel()) {
-        // Your home screen UI here
+        //  home screen UI 
     }
 
     @Composable
     fun CreateTodoScreen(navController: NavController, viewModel: TodoViewModel = hiltViewModel()) {
-        // Your create/edit to-do screen UI here
+        //  crud to-do screen UI
     }
     ```
 
